@@ -1,3 +1,161 @@
-.about-me {
+.about-me__title {
+  margin-bottom: 40px;
+}
 
+.about-me__title-span {
+  color: var(--accet-green);
+}
+
+.about-me__my-foto {
+  border-radius: 16px;
+  margin-bottom: 40px;
+}
+
+.about-me__bio-title {
+  font-family: var(--font-family);
+  margin-bottom: 32px;
+}
+
+.about-me__bio-text {
+  margin-bottom: 24px;
+  max-width: 320px;
+}
+
+.about-me__box-decor {
+  display: none;
+}
+
+.about-me__education-title {
+  font-family: var(--font-family);
+  margin-bottom: 32px;
+}
+
+.about-me__item {
+  margin-bottom: 12px;
+  padding-left: 32px;
+  max-width: 320px;
+}
+
+.about-me__padding-left {
+  padding-left: 24px;
+}
+
+.about-me__role-title {
+  font-family: var(--font-family);
+  margin-bottom: 32px;
+}
+
+.about-me__margin-bottom-text,
+.about-me__margin-bottom-item {
+  margin-bottom: 40px;
+}
+
+.about-me__margin-zero {
+  margin: 0;
+}
+
+.about-me__box-item {
+  position: relative;
+}
+
+.about-me__decor-square {
+  border-radius: 1px;
+  width: 4px;
+  height: 4px;
+  background: var(--accet-green);
+  position: absolute;
+  top: 13%;
+  left: 14px;
+}
+
+.about-me__decor-square-blender {
+  top: 20%;
+}
+
+.about-me__decor-square-role {
+  top: 40%;
+  left: 10px;
+}
+
+@media (min-width: 768px) {
+  .about-me__container {
+    background-image: url(../images/decor/decor-bg-6-tab-1x.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 100% 82.5%;
+  }
+
+  .about-me__foto-bio {
+    position: relative;
+    justify-content: right;
+    display: grid;
+  }
+
+  .about-me__box-foto {
+    position: absolute;
+    top: 45%;
+  }
+
+  .about-me__my-foto {
+    margin: 0;
+  }
+
+  .about-me__bio-text {
+    max-width: 336px;
+  }
+
+  .about-me__margin-bottom-text {
+    margin-bottom: 140px;
+  }
+
+  .about-me__box-decor {
+    display: block;
+    padding-left: 355px;
+  }
+
+  .about-me__education-role {
+    display: flex;
+    gap: 46px;
+  }
+
+  .about-me__item {
+    margin-bottom: 16px;
+  }
+
+  .about-me__margin-bottom-item {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .about-me__container {
+    background-image: url(../images/decor/decor-bg-2-desc-1x.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 100% 71%;
+  }
+
+  .about-me__box-foto {
+    top: 34%;
+    left: 22%;
+  }
+
+  .about-me__bio-text {
+    max-width: 488px;
+  }
+
+  .about-me__margin-bottom-text {
+    margin-bottom: 312px;
+  }
+
+  .about-me__box-decor {
+    justify-content: end;
+    display: grid;
+  }
+
+  .about-me__education-role {
+    margin-top: -30px;
+    justify-content: center;
+    gap: 150px;
+  }
 }

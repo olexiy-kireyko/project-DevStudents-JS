@@ -1,3 +1,135 @@
 <section class="about-me">
-  <div class="container"></div>
+  <div class="container">
+    <div class="about-me__container">
+      <h2 class="about-me__title">
+        About <span class="about-me__title-span">me</span>
+      </h2>
+
+      <div class="about-me__foto-bio">
+        <div class="about-me__box-foto">
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                ../images/about-me/about-me-desctop-1x.jpg 1x,
+                images/about-me/about-me-desctop-2x.jpg    2x
+              "
+              width="384"
+            />
+            <source
+              media="(min-width:768px)"
+              srcset="
+                ../images/about-me/about-me-tab-1x.jpg 1x,
+                images/about-me/about-me-tab-2x.jpg    2x
+              "
+            />
+            <source
+              media="(max-width:767px)"
+              srcset="
+                ../images/about-me/about-me-mob-1x.jpg 1x,
+                images/about-me/about-me-mob-2x.jpg    2x
+              "
+            />
+            <img
+              src="../images/about-me/about-me-tab-1x.jpg"
+              alt="My foto"
+              width="340"
+              class="about-me__my-foto"
+            />
+          </picture>
+        </div>
+
+        <div class="about-me__bio">
+          <h3 class="about-me__bio-title">BIO</h3>
+
+          <p class="about-me__bio-text">
+            I'm Lloyd Jefferson, a talented programmer specializing in software
+            development. My expertise spans various programming languages and
+            technologies, and I am dedicated to continually enhancing my skills.
+            I thrive on seeking unconventional and creative solutions to
+            problems, leveraging a high level of analytical skills to
+            effectively tackle even the most challenging tasks.
+          </p>
+
+          <p class="about-me__bio-text about-me__margin-bottom-text">
+            Adaptable to both independent and team-oriented work, I collaborate
+            seamlessly with colleagues, exchanging ideas and finding optimal
+            solutions. My professional maturity enables me to navigate
+            challenges and stressful situations with a calm demeanor,
+            maintaining a consistently high quality of work. Committed to
+            self-improvement, I actively engage in studying new technologies and
+            practices to stay current with the latest innovations in the field.
+          </p>
+        </div>
+      </div>
+
+      <div class="about-me__education-role">
+        <div class="about-me__education-title-container">
+          <h3 class="about-me__education-title">EDUCATION</h3>
+
+          <ul class="about-me__list">
+            <div class="about-me__box-item">
+              <li class="about-me__item">
+                2018 - 2019 / Frontend Development Diploma, GoIT IT School, New
+                York
+              </li>
+              <li class="about-me__decor-square"></li>
+            </div>
+
+            <div class="about-me__box-item">
+              <li class="about-me__item">
+                2019 - 2020 / Advanced Web Development Certificate, GoIT IT
+                School, New York
+              </li>
+              <li class="about-me__decor-square"></li>
+            </div>
+
+            <div class="about-me__box-item">
+              <li class="about-me__item about-me__margin-bottom-item">
+                2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+              </li>
+              <li
+                class="about-me__decor-square about-me__decor-square-blender"
+              ></li>
+            </div>
+          </ul>
+        </div>
+
+        <div class="about-me__role-container">
+          <h3 class="about-me__role-title">ROLE</h3>
+
+          <ul class="about-me__list">
+            <div class="about-me__box-item">
+              <li class="about-me__item about-me__padding-left">
+                Frontend development
+              </li>
+              <li
+                class="about-me__decor-square about-me__decor-square-role"
+              ></li>
+            </div>
+
+            <div class="about-me__box-item">
+              <li class="about-me__item about-me__padding-left">
+                HeadlessCMS, Wordpress
+              </li>
+              <li
+                class="about-me__decor-square about-me__decor-square-role"
+              ></li>
+            </div>
+
+            <div class="about-me__box-item">
+              <li
+                class="about-me__item about-me__margin-zero about-me__padding-left"
+              >
+                Blender (enjoy)
+              </li>
+              <li
+                class="about-me__decor-square about-me__decor-square-role"
+              ></li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
