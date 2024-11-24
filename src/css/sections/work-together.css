@@ -15,13 +15,10 @@
   margin-bottom: 32px;
 }
 
-/* LIST */
-
 .work-together__list {
   display: flex;
   flex-direction: column;
   gap: 16px;
-
   margin-bottom: 40px;
 }
 
@@ -43,8 +40,6 @@
 .work-together-list__link:focus {
   color: var(--accet-green);
 }
-
-/* FORM */
 
 .work-together__form {
   display: flex;
@@ -80,7 +75,6 @@
 
 .form__svg-check-right {
   display: none;
-
   position: absolute;
   fill: var(--accet-green);
   right: 16px;
@@ -89,7 +83,6 @@
 
 .form__email-check-wrong {
   display: none;
-
   position: absolute;
   font-size: 12px;
   line-height: 1.33333;
@@ -102,14 +95,12 @@
   padding: 12px 24px;
   background-color: var(--accet-green);
   border: none;
-
   text-transform: uppercase;
   text-align: center;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: var(--white);
-
   transition: background-color var(--animation);
 }
 
@@ -184,8 +175,6 @@
   }
 }
 
-/* Modal window */
-
 .work-together__modal-window {
   position: fixed;
   top: 0;
@@ -197,11 +186,9 @@
   pointer-events: none;
   overflow-y: auto;
   padding: 0 10px;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   transition: opacity var(--animation), visibility var(--animation);
 }
 
@@ -216,7 +203,6 @@
 .modal-window__container {
   position: relative;
   opacity: 1;
-
   background-color: var(--bg-form);
   width: 100%;
   max-width: 320px;
@@ -250,7 +236,6 @@
   text-transform: uppercase;
   text-align: center;
   color: var(--accet-green);
-
   margin-bottom: 16px;
 }
 

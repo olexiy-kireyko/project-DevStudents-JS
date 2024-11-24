@@ -35,7 +35,8 @@
   gap: 24px;
 }
 
-.footer__list-item:hover {
+.footer__list-item:hover,
+.footer__list-item:focus {
   color: var(--accet-green);
 }
 

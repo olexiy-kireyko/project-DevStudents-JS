@@ -14,9 +14,7 @@
   display: flex;
   flex-direction: column;
   gap: 0;
-  transition:
-    border-radius var(--animation),
-    border-bottom var(--animation),
+  transition: border-radius var(--animation), border-bottom var(--animation),
     gap var(--animation);
 }
 
@@ -31,13 +29,11 @@
 }
 
 .faq__acc-trigger {
-  font-family: var(--font-main);
   font-weight: 400;
   font-size: 18px;
   line-height: 1.6;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--text);
   border: none;
   background-color: transparent;
   display: flex;
@@ -68,11 +64,6 @@
   overflow: hidden;
   transition-property: height, visibility;
   transition-timing-function: ease;
-}
-
-.faq__acc-text {
-  font-family: var(--font-main);
-  color: var(--text);
 }
 
 .faq__acc-item.js-enabled .faq__ac-panel {
@@ -134,8 +125,8 @@
   }
 
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .faq__content {
       background-image: url(../../images/decor/decor-bg-4-desc-2x.png);
       background-color: transparent;

@@ -19,8 +19,6 @@
   margin-bottom: 24px;
 }
 
-/* slides */
-
 .reviews .swiper-slide {
   border-radius: 16px;
   padding: 32px;
@@ -33,7 +31,6 @@
 
 .reviews__quote {
   margin: 0 0 24px 0;
-  /*margin-bottom: 24px;*/
 }
 
 .reviews__info {
@@ -50,16 +47,12 @@
 }
 
 .reviews__name {
-  font-family: var(--font-main);
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.03em;
-  color: var(--text);
   text-transform: none;
 }
-
-/* button */
 
 .swiper__btn-list {
   display: flex;
@@ -77,13 +70,11 @@
 .swiper__btn {
   border: 1px solid var(--text);
   fill: var(--text);
-
   padding: 7px;
   border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-
   cursor: pointer;
   transition: var(--animation);
 }

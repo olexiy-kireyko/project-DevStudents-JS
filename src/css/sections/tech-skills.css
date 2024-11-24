@@ -63,7 +63,7 @@
 }
 
 .skills__line-bottom .skills__item:after {
-  content: '•'; 
+  content: '•';
   color: var(--text);
 }
 
